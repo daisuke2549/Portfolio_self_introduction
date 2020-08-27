@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head bgcolor="red">
+  <meta charset="utf-8">
+  <title>Daisuke Sasaki</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <!-- Bootstrap Javascript(jQuery含む) -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <div class="web-title" id="web-title" style="background-image:url(./sky.jpg)">Daisuke Sasaki
+    　<div class="menu-item">
+      <nav>
+          <li><a href="link1.html" color="white">ホーム</a></li> 
+          <li>お問い合わせ</li> 
+          <li><a href="https://www.gerund25495641.com/daisuke.blog/">ブログ</a></li> 
+          <li><a href="https://twitter.com/goroilike">Twitter</a></li> 
+      </nav>
+    </div>
+    </div>
+</head>
+<body bgcolor="white">
+  <!-- 以下の<div>タグに"hide-text"というidをつけてください -->
+
+  <!-- 以下の<h1>タグに"text "というidをつけてください -->
+<div class="profile-image" id="profile-image">
+  <img src="top-image.png" title="トップ画"　width="20" height="420">
+</div>
+
+ 
+ <div class="history" id=”history”>
+   <a class="btn btn-primary">プロフィール</a>
+  </div>
+  <div class="history2">
+  <li>１９９２年生まれ</li>
+  <li>宮城県出身</li>
+  <li>国立大学卒業</li>
+  <li>趣味；読書・筋トレ・旅行</li>
+  <li>プログラミング勉強中( HTML,CSS, PHP JavaScript etc Web系中心) </li>
+  <li>ブログ・ネットビジネス</li>
+ </div>  
+ <hr class ="border">
+ <div class="workling-history"　id=”workling-history”>
+   <p>職務経験</p>
+  <li>建設会社勤務(施工管理)</li>
+  <li>外資系通信機器メーカー(施工管理)</li>
+  <li>外資系通信機器メーカー(5Gエンジニア)</li>
+  <li></li>
+ </div>  
+ <hr class ="border">
+ <div class="qualification" id="qualification">
+ <p>保有資格</p>
+<li>電気工事士２種</li>
+<li>工事担任者総合種</li>
+<li>第１種陸上特殊無線技士</li>
+<li>電気通信主任技術者(伝送交換)</li>
+<li>TOEIC 900点</li>
+<li>英語検定準１級</li>
+</div>  
+<hr class ="border">
+<div class="gazo-box" id="skill">
+  <p>プログラミングスキル</p>
+  <figure class="PHP">
+    <img src="PHP.png" alt="PHP" width="320" height="240">
+    <figcaption></figcaption>
+  </figure>
+  <figure class="JavaScript">
+    <img src="JavaScript.jpg" alt="JavaScript" width="320" height="240">
+    <figcaption></figcaption>
+  </figure>
+  <figure class="jQuery">
+    <img src="jQuery.png" alt="jQuery" width="320" height="240">
+    <figcaption></figcaption>
+  </figure>
+</div>
+<div class=skilllevel id=skilllevel>
+     <ul>
+       <li>PHPは動的にWebページを生成することができるサーバーサイドのスクリプト言語</li>
+       <li>JavaScriptはプログラミング言語であり、ユーザー側のWebブラウザと、Webサイトまたはウェブサービスの相互間のやりとりを、円滑にするために使われています。</li>
+       <li>jQueryは、ウェブブラウザ用のJavaScriptコードをより容易に記述できるようにするために設計されたJavaScriptライブラリである</li>
+     </ul>
+</div>
+<div class="Form">
+  <div class="Form-Item">
+    <p class="Form-Item-Label">
+      <span class="Form-Item-Label-Required"></span>お名前
+    </p>
+    <input type="text" id="Form-Item-Input">
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required"></span>メールアドレス</p>
+    <input type="text" id="Form-Item-Input">
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label"><span class="Form-Item-Label-Required"></span>電話番号</p>
+    <input type="text" id="Form-Item-Input">
+  </div>
+  <div class="Form-Item">
+    <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required"></span>お問い合わせ内容</p>
+    <textarea id="Form-Item-Textarea"></textarea>
+  </div>
+  <div>
+  <form action="#" id="form">
+  <input type="submit" class="Form-Btn" id="button" value="送信する">
+  </form>
+</div>
+
+<div class="contact" id="contact">お問い合わせ内容が送信されました
+</body>
+  <footer>
+    <div class="footer-image">Written by Daisuke Sasaki
+    </div>
+  </footer>
+<script>
+'use strict'
+
+if(window.confirm("こちらのサイトを閲覧しますか")){
+    console.log("閲覧ありがとうございます");  
+}else{
+    console.log("残念です")
+}
+</script>
+
+<script>
+  'use strict';
+  document.getElementById('form').onsubmit = function() {
+    console.log('クリックされました');
+};
+</script>
+
+<script>
+  'use strict';
+
+  const hour = new Date().getHours();
+
+ if(hour >=18 && hour<24){
+   window.alert('今日もお疲れ様。プログラミング学習進んでいますか？')
+ }else if(hour >=9 && hour<18){
+   window.alert('仕事中だけどプログラミング進めろよ')
+ }else if(hour>24 && hour<=5){
+  window.alert('そろそろ寝たら？')
+ }else{
+   window.alert('do your best')
+ }
+</script>
+
+
+</body>
+</html>
