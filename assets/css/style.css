@@ -773,6 +773,8 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+  width:170px;
+  height:190px;
 }
 
 .service-box:hover .ico-circle {
@@ -841,6 +843,8 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  width:200px;
+  height:350px;
 }
 
 .work-box:hover img {
@@ -1084,6 +1088,7 @@ a:hover {
 .col-md-4{
   margin-right: auto;
   margin-left : auto;
+
 }
 
 .card-blog .card-category {
