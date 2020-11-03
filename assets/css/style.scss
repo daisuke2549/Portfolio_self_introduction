@@ -1,10 +1,10 @@
-@charset "UTF-8";
 /**
 * Template Name: DevFolio - v2.2.0
 * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -75,10 +75,9 @@ a:hover {
   margin-right: 4px;
   overflow: hidden;
 }
-
-.about-info {
-  font-size: 10px;
-  margin-top: 30px;
+.about-info{
+  font-size:10px;
+  margin-top:30px;
 }
 
 .bg-image {
@@ -124,110 +123,111 @@ a:hover {
   vertical-align: middle;
 }
 
-.card-img-top {
-  width: 180px;
-  height: 180px;
+.card-img-top{
+    width:180px;
+    height:180px;
+}
+.row{ 
+    margin: auto;
+   
+}
+.col-4{
+    left:70px;
+    margin:auto;
+p{  
+    color:black;
+    left:30px;
+    position: relative;
+}
 }
 
-.row {
-  margin: auto;
+.navbar-nav{
+    display:flex;
+    font-size: 32px;
+    margin: auto;
+    left:-80px;
+    position: relative;
 }
-
-.col-4 {
-  left: 70px;
-  margin: auto;
-}
-
-.col-4 p {
-  color: black;
-  left: 30px;
-  position: relative;
-}
-
-.navbar-nav {
-  display: flex;
-  font-size: 32px;
-  margin: auto;
-  left: -80px;
-  position: relative;
-}
-
-.nav-item a {
-  margin-right: 100px;
+.nav-item a{
+    margin-right:100px;
+    
 }
 
 /*--------------------------------------------------------------
 # hambeger menu
 --------------------------------------------------------------*/
-/* レイアウト用 */
-/* ここから */
-:root {
-  --hamburger-menu-size: 100px;
-  /* メニューの大きさ */
-  --hamburger-menu-padding: 12px;
-  --hamburger-menu-border-px: 6px;
-  /* 線の太さ */
-  --hamburger-menu-border-color: #342534;
-  /* 線の色 */
-  --hamburger-menu-transition: 0.3s;
-  /* アニメーション秒数 */
-}
 
-.hamburger-menu {
-  margin: 0 auto;
-  /* 中央寄せしたいだけ */
-  cursor: pointer;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-  left: 900px;
-  top: 20px;
-}
+  /* レイアウト用 */
 
-.hamburger-menu-line {
-  position: absolute;
-  transition: var(--hamburger-menu-transition);
-  width: calc(100% - var(--hamburger-menu-padding) * 2);
-  height: var(--hamburger-menu-border-px);
-  background-color: var(--hamburger-menu-border-color);
-}
-
-.line-top {
-  top: var(--hamburger-menu-padding);
-  left: var(--hamburger-menu-padding);
-}
-
-.line-middle {
-  top: calc(50% - var(--hamburger-menu-border-px)/2);
-  left: var(--hamburger-menu-padding);
-}
-
-.line-bottom {
-  bottom: var(--hamburger-menu-padding);
-  left: var(--hamburger-menu-padding);
-}
-
-.hamburger-menu-active > .line-top {
-  top: calc(50% - var(--hamburger-menu-border-px)/2);
-  transform: rotate(45deg);
-}
-
-.hamburger-menu-active > .line-middle {
-  width: 0;
-  height: 0;
-  left: var(--hamburger-menu-padding);
-}
-
-.hamburger-menu-active > .line-bottom {
-  top: calc(50% - var(--hamburger-menu-border-px)/2);
-  transform: rotate(-45deg);
-}
+  
+  /* ここから */
+  :root {
+    --hamburger-menu-size: 100px; /* メニューの大きさ */ 
+    --hamburger-menu-padding: 12px;  
+    --hamburger-menu-border-px: 6px; /* 線の太さ */
+    --hamburger-menu-border-color: #342534; /* 線の色 */
+    --hamburger-menu-transition: 0.3s; /* アニメーション秒数 */
+  }
+  
+  
+  .hamburger-menu {
+    margin: 0 auto; /* 中央寄せしたいだけ */
+    cursor: pointer;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    left:900px;
+    top:20px;
+  }
+  
+  
+  .hamburger-menu-line {
+    position: absolute;
+    transition: var(--hamburger-menu-transition);
+    width: calc(100% - var(--hamburger-menu-padding) * 2);
+    height: var(--hamburger-menu-border-px);
+    background-color: var(--hamburger-menu-border-color);
+  }
+  
+  
+  .line-top {
+    top: var(--hamburger-menu-padding);
+    left: var(--hamburger-menu-padding);
+  }
+  
+  .line-middle {
+    top: calc(50% - var(--hamburger-menu-border-px)/2);
+    left: var(--hamburger-menu-padding);
+  }
+  
+  .line-bottom {
+    bottom: var(--hamburger-menu-padding);
+    left: var(--hamburger-menu-padding);
+  }
+  
+  
+  .hamburger-menu-active > .line-top {
+    top: calc(50% - var(--hamburger-menu-border-px)/2);
+    transform: rotate(45deg);
+  }
+  
+  .hamburger-menu-active > .line-middle {
+    width: 0;
+    height: 0;
+    left: var(--hamburger-menu-padding);
+  }
+  
+  .hamburger-menu-active > .line-bottom {
+    top: calc(50% - var(--hamburger-menu-border-px)/2);
+    transform: rotate(-45deg);
+  }
+  
 
 /*----------------------------
 * メニュー開閉ボタン
 *----------------------------*/
-.menu-btn {
+.menu-btn{
   position: fixed;
   top: 20px;
   right: 20px;
@@ -244,11 +244,11 @@ a:hover {
 /*----------------------------
 * メニュー本体
 *----------------------------*/
-.menu {
+.menu{
   position: fixed;
   top: 84px;
   right: 0;
-  left: 1710px;
+  left:1710px;
   z-index: 1;
   width: 100px;
   height: 1000px;
@@ -256,10 +256,10 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: transparent;
-}
+  background:transparent;
 
-.menu__item {
+}
+.menu__item{
   width: 100%;
   height: auto;
   list-style: none;
@@ -268,31 +268,42 @@ a:hover {
   color: #fff;
   font-size: 30px;
   box-sizing: border-box;
-  color: red;
+  color:red;
+}
+.menu__item{
+li{
+    list-style: none;
+}
 }
 
-.menu__item li {
-  list-style: none;
-}
 
 /*----------------------------
 * アニメーション部分
 *----------------------------*/
+
 /* アニメーション前のメニューの状態 */
-.menu {
+.menu{
   transform: translateX(100vw);
   transition: all .3s linear;
 }
-
 /* アニメーション後のメニューの状態 */
-.menu.is-active {
+.menu.is-active{
   transform: translateX(0);
 }
 
-/* ここまで */
-/* ここまで */
+  
+  
+  /* ここまで */
+  
+  /* ここまで */
+  
+  
+
+
+
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
+
 /*--/ Sections /--*/
 .sect-4 {
   padding: 4rem 0;
@@ -312,9 +323,8 @@ a:hover {
   color: #1e1e1e;
   font-size: 14px;
 }
-
-.title-box-2 {
-  color: black;
+.title-box-2{
+    color:black;
 }
 
 /*--/ Title A /--*/
@@ -325,110 +335,118 @@ a:hover {
 .title-a {
   font-size: 3rem;
   font-weight: bold;
+
   text-transform: uppercase;
+:hover{
+    cursor: pointer;
+}
 }
 
-.title-a :hover {
-  cursor: pointer;
-}
 
-.title-a::after {
-  position: absolute;
-  text-align: center;
-  content: '';
-  bottom: 0;
-  left: 270px;
-  width: 0;
-  height: 3px;
-  background: #2196F3;
-  transition: all 0.3s ease 0s;
+.title-a::after{
+    position: absolute;
+    text-align: center;
+    content: '';
+    bottom: 0;
+    left: 270px;
+    width: 0;
+    height: 3px;
+    background: #2196F3;
+    transition: all 0.3s ease 0s;
 }
-
 .title-a:hover::after {
-  width: 50%;
+    width:50%;
 }
+
 
 .title-b {
-  font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  :hover{
+      cursor: pointer;
+  }
+  }
+  
+  
+  .title-b::after{
+      position: absolute;
+      text-align: center;
+      content: '';
+      bottom: 0;
+      left: 415px;
+      width: 0;
+      height: 3px;
+      background: #2196F3;
+      transition: all 0.3s ease 0s;
+  }
+  .title-b:hover::after {
+      width:20%;
+  }
+  
 
-.title-b :hover {
-  cursor: pointer;
-}
+  .title-c {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  :hover{
+      cursor: pointer;
+  }
+  }
+  
+  
+  .title-c::after{
+      position: absolute;
+      text-align: center;
+      content: '';
+      bottom: 0;
+      left: 455px;
+      width: 0;
+      height: 3px;
+      background: #2196F3;
+      transition: all 0.3s ease 0s;
+  }
+  .title-c:hover::after {
+      width:15%;
+  }
+  
 
-.title-b::after {
-  position: absolute;
-  text-align: center;
-  content: '';
-  bottom: 0;
-  left: 415px;
-  width: 0;
-  height: 3px;
-  background: #2196F3;
-  transition: all 0.3s ease 0s;
-}
+  .nav-item a{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  :hover{
+      cursor: pointer;
+  }
+  }
+  
+  
+  .nav-item a::after{
+      position: absolute;
+      text-align: center;
+      content: '';
+      bottom: 0;
+      left: 20px;
+      width: 0;
+      height: 3px;
+      background: red;
+      transition: all 0.3s ease 0s;
+  }
+  .nav-item a:hover::after {
+      width:40%;
+  }
 
-.title-b:hover::after {
-  width: 20%;
-}
 
-.title-c {
-  font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
-.title-c :hover {
-  cursor: pointer;
-}
 
-.title-c::after {
-  position: absolute;
-  text-align: center;
-  content: '';
-  bottom: 0;
-  left: 455px;
-  width: 0;
-  height: 3px;
-  background: #2196F3;
-  transition: all 0.3s ease 0s;
-}
 
-.title-c:hover::after {
-  width: 15%;
-}
 
-.nav-item a {
-  font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
-.nav-item a :hover {
-  cursor: pointer;
-}
-
-.nav-item a::after {
-  position: absolute;
-  text-align: center;
-  content: '';
-  bottom: 0;
-  left: 20px;
-  width: 0;
-  height: 3px;
-  background: red;
-  transition: all 0.3s ease 0s;
-}
-
-.nav-item a:hover::after {
-  width: 40%;
-}
 
 .subtitle-a {
   color: #4e4e4e;
 }
+
 
 /*--/ Title Left /--*/
 .title-box-2 {
@@ -439,6 +457,8 @@ a:hover {
   font-size: 2rem;
   position: relative;
 }
+
+
 
 /*------/ Box /------*/
 .box-pl2 {
@@ -463,13 +483,12 @@ a:hover {
 /*------/ Socials /------*/
 .socials {
   padding: 2.5rem;
-  top: -50px;
+  top:-50px;
   position: relative;
+img{
+    width:100px;
+    height:100px;
 }
-
-.socials img {
-  width: 100px;
-  height: 100px;
 }
 
 .socials ul li {
@@ -768,6 +787,8 @@ a:hover {
   width: 35px;
 }
 
+
+
 .navbar-b.navbar-trans .nav-link:hover {
   color: #fff;
 }
@@ -986,9 +1007,10 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#about {
-  margin-top: 100px;
+#about{
+    margin-top: 100px;;
 }
+
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -997,7 +1019,7 @@ a:hover {
 
 .about-mf .about-img {
   margin-bottom: 2rem;
-  margin-top: 30px;
+  margin-top:30px;
 }
 
 .about-mf .about-img img {
@@ -1011,8 +1033,8 @@ a:hover {
   }
 }
 
-.skill-mf {
-  font-size: 14px;
+.skill-mf{
+  font-size:14px;
 }
 
 .skill-mf span {
@@ -1034,8 +1056,8 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-#service {
-  margin-top: 200px;
+#service{
+ margin-top: 200px;;
 }
 
 .service-box {
@@ -1043,8 +1065,8 @@ a:hover {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
-  width: 170px;
-  height: 190px;
+  width:170px;
+  height:190px;
 }
 
 .service-box:hover .ico-circle {
@@ -1108,32 +1130,34 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-#work {
-  margin-top: 100px;
+#work{
+    margin-top: 100px;
 }
-
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
-  width: 200px;
-  height: 350px;
+  width:200px;
+  height:350px;
 }
 
-.work-service-box {
+.work-service-box{
+  
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
-  width: 230px;
-  height: 250px;
-  margin: auto;
+  width:230px;
+  height:250px;
+  margin:auto;
   margin-bottom: 3rem;
 }
 
-.work-service-box img {
-  height: 250px;
+.work-service-box img{
+  height:250px;
 }
+
+
 
 .work-box:hover img {
   transform: scale(1.3);
@@ -1241,6 +1265,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -1255,6 +1280,7 @@ a:hover {
     padding-left: 0rem;
   }
 }
+
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1273,6 +1299,7 @@ a:hover {
     transform: rotate(360deg);
   }
 }
+
 
 /*------/ Comments /------*/
 .box-comments .list-comments li {
@@ -1369,11 +1396,13 @@ a:hover {
   color: #fff;
 }
 
-.line-id {
-  color: green;
+.line-id{
+  color:green;
   display: none;
-  padding-right: 40px;
+  padding-right:40px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1382,25 +1411,23 @@ footer {
   text-align: center;
   color: black;
   padding: 25px 0;
-  background: lightgray;
-  height: 500px;
+  background:lightgray;
+  height:500px;
 }
 
 footer .copyright {
   margin-bottom: 0.5rem;
 }
-
-#copyright {
-  font-size: 24px;
-  top: 30px;
-  position: relative;
-  text-align: center;
-  height: 100px;
+#copyright{
+    font-size: 24px;
+    top:30px;
+    position: relative;
+    text-align: center;
+    height:100px;
+P{
+    top:70px;
+    position: relative;
 }
-
-#copyright P {
-  top: 70px;
-  position: relative;
 }
 
 footer .credits {
@@ -1411,110 +1438,116 @@ footer .credits a {
   color: #fff;
 }
 
-.bloglink {
+.bloglink{
   text-align: center;
 }
 
-.card-footer {
+.card-footer{
   text-align: center;
 }
 
-.title-box-2 pt-4 pt-md-1 p {
-  margin-top: 140px;
+
+.title-box-2 pt-4 pt-md-1 p{
+  margin-top:140px;
 }
 
-.card-description {
-  font-size: 11px;
+.card-description{
+  font-size:11px;
 }
-
-.card-title {
-  text-align: center;
+.card-title{
+  text-align:center;
 }
-
-.title-box h3 {
-  top: -70px;
-  position: relative;
+.title-box h3{
+    top:-70px;
+    position: relative;
 }
-
-.contact_text {
-  top: -90px;
-  position: relative;
-  font-size: 24px;
+.contact_text{
+    top:-90px;
+    position: relative;
+    font-size: 24px;
 }
 
 /*--------------------------------------------------------------
 レスポンシブ対応(nav)
 --------------------------------------------------------------*/
 @media (max-width: 768px) {
-  .navbar-nav li {
+  .navbar-nav li{
     display: none;
   }
-  /*--------------------------------------------------------------
+
+
+
+/*--------------------------------------------------------------
 レスポンシブ対応(Programming skill)
 --------------------------------------------------------------*/
-  .col-md-4 {
-    display: flex;
-  }
-  #about {
-    margin-top: 450px;
-  }
-  .about-img {
+.col-md-4{
+  display: flex;
+  
+}
+#about{
+    margin-top:450px;
+}
+.about-img{
     border-radius: 50%;
-  }
-  .about-info {
+}
+.about-info{
     position: relative;
     text-align: center;
-  }
-  .title-left {
+}
+.title-left{
     text-align: center;
-  }
-  .title-a {
+}
+.title-a{
     font-size: 20px;
-  }
-  .title-b {
+}
+.title-b{
     font-size: 20px;
-  }
-  .title-c {
+}
+.title-c{
     font-size: 20px;
-  }
-  .row {
-    display: inline;
-    margin: auto;
-  }
-  .col-4 {
-    left: -40px;
-  }
-  .col-4 p {
-    left: 40px;
+}
+.row{ 
+   display: inline;   
+   margin:auto;
+}
+.col-4{
+    left:-40px;
+p{
+    left:40px;
     position: relative;
-  }
-  .title-box {
+}
+}
+.title-box{
     margin-bottom: -60px;
-  }
-  footer {
-    margin-top: 200px;
-  }
-  .contact_text {
-    font-size: 16px;
-    top: 60px;
-  }
-  .socials ul img {
-    width: 70px;
-    padding-right: 10px;
+}
+footer{
+    margin-top:200px;
+}
+.contact_text{
+font-size: 16px;
+top:60px;
+}
+.socials ul{
+img{
+    width:70px;
+    padding-right:10px;
     margin: auto;
-    top: 120px;
+    top:120px;
     position: relative;
-  }
-  .socials ul #copyright p {
-    font-size: 12px;
-    top: 130px;
-  }
-  .socials ul .intro route bg-image {
-    background-size: contain;
+}    
+#copyright {
+    p{    font-size: 12px;
+    top:130px;
+}
+}
+.intro route bg-image{
+    background-size:contain;
     background: url(/assets/img/header.jpg);
-    width: 50%;
-  }
-  .hamburger-menu {
-    left: 120px;
-  }
+    width:50%;
+}
+}
+.hamburger-menu{
+    left:120px;
+}
+
 }

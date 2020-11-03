@@ -145,8 +145,30 @@
       'share': false
     });
   });
+  $(function(){
+    $('.hamburger-menu').on('click', function() {
+      $(this).toggleClass('hamburger-menu-active')
+    })
+  })
 
 })(jQuery);
 
 
+$(function() {
+    $('.intro-title h1').textFx({
+    　　　　type: 'fadeIn',
+    　　　　iChar: 20,
+    　　　　iAnim: '1000'
+　　　　});
+});
 
+$(function(){
+  $('.hamburger-menu').on('click', function() {
+    $(this).toggleClass('.hamburger-menu-active')
+  })
+})
+$(function(){
+  $('.hamburger-menu').on('click', function(){
+    $('.menu').toggleClass('is-active');
+  });
+}());
