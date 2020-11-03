@@ -248,10 +248,10 @@ p{
   position: fixed;
   top: 84px;
   right: 0;
-  left:1710px;
+  left:810px;
   z-index: 1;
   width: 100px;
-  height: 1000px;
+  height:100px;
   display: block;
   flex-direction: column;
   align-items: center;
@@ -269,11 +269,21 @@ p{
   font-size: 30px;
   box-sizing: border-box;
   color:red;
+  list-style: none;
 }
 .menu__item{
 li{
     list-style: none;
+    border:2px solid;
 }
+.menu_list{
+    width:100px;
+    height:100px;
+li{
+    list-style: none;
+}    
+}
+
 }
 
 
@@ -1485,7 +1495,7 @@ footer .credits a {
   
 }
 #about{
-    margin-top:450px;
+    margin-top:150px;
 }
 .about-img{
     border-radius: 50%;
@@ -1521,7 +1531,7 @@ p{
     margin-bottom: -60px;
 }
 footer{
-    margin-top:200px;
+    margin-top:100px;
 }
 .contact_text{
 font-size: 16px;
@@ -1535,10 +1545,11 @@ img{
     top:120px;
     position: relative;
 }    
-#copyright {
-    p{    font-size: 12px;
-    top:130px;
-}
+.copyright p{
+    font-size: 12px;
+    top:100px;
+    position: relative;
+
 }
 .intro route bg-image{
     background-size:contain;
@@ -1548,6 +1559,32 @@ img{
 }
 .hamburger-menu{
     left:120px;
+    display: none;
 }
+
+.menu{
+    position: fixed;
+    left:510px;
+  
+  }
+  .menu__item{
+
+  }
+  .menu__item{
+  li{
+      list-style: none;
+      border:2px solid;
+  }
+  .menu_list{
+      width:50px;
+      height:50px;
+  li{
+      list-style: none;
+  }    
+  }
+.contact-mf{
+    margin-top:-50px;
+}
+  }
 
 }

@@ -248,10 +248,10 @@ a:hover {
   position: fixed;
   top: 84px;
   right: 0;
-  left: 1710px;
+  left: 810px;
   z-index: 1;
   width: 100px;
-  height: 1000px;
+  height: 100px;
   display: block;
   flex-direction: column;
   align-items: center;
@@ -269,9 +269,20 @@ a:hover {
   font-size: 30px;
   box-sizing: border-box;
   color: red;
+  list-style: none;
 }
 
 .menu__item li {
+  list-style: none;
+  border: 2px solid;
+}
+
+.menu__item .menu_list {
+  width: 100px;
+  height: 100px;
+}
+
+.menu__item .menu_list li {
   list-style: none;
 }
 
@@ -1456,7 +1467,7 @@ footer .credits a {
     display: flex;
   }
   #about {
-    margin-top: 450px;
+    margin-top: 150px;
   }
   .about-img {
     border-radius: 50%;
@@ -1492,7 +1503,7 @@ footer .credits a {
     margin-bottom: -60px;
   }
   footer {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .contact_text {
     font-size: 16px;
@@ -1505,9 +1516,10 @@ footer .credits a {
     top: 120px;
     position: relative;
   }
-  .socials ul #copyright p {
+  .socials ul .copyright p {
     font-size: 12px;
-    top: 130px;
+    top: 100px;
+    position: relative;
   }
   .socials ul .intro route bg-image {
     background-size: contain;
@@ -1516,5 +1528,24 @@ footer .credits a {
   }
   .hamburger-menu {
     left: 120px;
+    display: none;
+  }
+  .menu {
+    position: fixed;
+    left: 510px;
+  }
+  .menu__item li {
+    list-style: none;
+    border: 2px solid;
+  }
+  .menu__item .menu_list {
+    width: 50px;
+    height: 50px;
+  }
+  .menu__item .menu_list li {
+    list-style: none;
+  }
+  .menu__item .contact-mf {
+    margin-top: -50px;
   }
 }
