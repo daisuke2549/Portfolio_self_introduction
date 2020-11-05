@@ -154,13 +154,6 @@
 })(jQuery);
 
 
-$(function() {
-    $('.intro-title h1').textFx({
-    　　　　type: 'fadeIn',
-    　　　　iChar: 20,
-    　　　　iAnim: '1000'
-　　　　});
-});
 
 $(function(){
   $('.hamburger-menu').on('click', function() {
