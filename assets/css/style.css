@@ -130,14 +130,17 @@ a:hover {
 }
 
 .row {
+ 
   margin: auto;
 }
 
 .col-4 {
-  left: 70px;
+  left:70px;
   margin: auto;
 }
-
+.col-4:hover {
+  opacity: 0.7;
+}
 .col-4 p {
   color: black;
   left: 30px;
@@ -374,7 +377,7 @@ a:hover {
   text-align: center;
   content: '';
   bottom: 0;
-  left: 415px;
+  left: 430px;
   width: 0;
   height: 3px;
   background: #2196F3;
@@ -400,7 +403,7 @@ a:hover {
   text-align: center;
   content: '';
   bottom: 0;
-  left: 455px;
+  left: 458px;
   width: 0;
   height: 3px;
   background: #2196F3;
@@ -471,16 +474,38 @@ a:hover {
   }
 }
 
+/*------/ Works /------*/
+
+.Work1-hover{
+
+
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
 /*------/ Socials /------*/
+#contact{
+  margin-top: 30px;
+}
 .socials {
   padding: 2.5rem;
-  top: -50px;
+  text-align: center;
   position: relative;
 }
 
 .socials img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  margin:20px;
+  height: 150px;
 }
 
 .socials ul li {
@@ -616,6 +641,7 @@ a:hover {
   .back-to-top {
     bottom: 15px;
   }
+
 }
 
 /*------/ Prelaoder /------*/
@@ -858,54 +884,6 @@ a:hover {
 }
 
 /*--/ Hamburger Navbar /--*/
-.navbar-toggler {
-  position: relative;
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active {
-  outline: 0;
-}
-
-.navbar-toggler span {
-  display: block;
-  background-color: #fff;
-  height: 3px;
-  width: 25px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  transform: rotate(0deg);
-  left: 0;
-  opacity: 1;
-}
-
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
-  transition: transform .35s ease-in-out;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
-  position: absolute;
-  left: 12px;
-  top: 10px;
-  transform: rotate(135deg);
-  opacity: 0.9;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
-  height: 12px;
-  visibility: hidden;
-  background-color: transparent;
-}
-
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
-  position: absolute;
-  left: 12px;
-  top: 10px;
-  transform: rotate(-135deg);
-  opacity: 0.9;
-}
-
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -1004,15 +982,14 @@ a:hover {
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-  margin-top: 30px;
 }
-
+.col-sm-6{
+  text-align: center;
+}
 .about-mf .about-img img {
-  margin-left: 10px;
+  width:150px;
+  
 }
 
 @media (min-width: 767px) {
@@ -1392,31 +1369,20 @@ a:hover {
 footer {
   text-align: center;
   color: black;
-  padding: 25px 0;
   background: lightgray;
-  height: 500px;
+  height: 50px;
 }
-
-footer .copyright {
-  margin-bottom: 0.5rem;
-}
-
-#copyright {
-  font-size: 24px;
-  top: 30px;
-  position: relative;
+.copyright p{
   text-align: center;
-  height: 100px;
-}
-
-#copyright P {
-  top: 70px;
+  top:15px;
   position: relative;
 }
 
-footer .credits {
-  margin-bottom: 0;
-}
+
+
+
+
+
 
 footer .credits a {
   color: #fff;
@@ -1451,6 +1417,7 @@ footer .credits a {
   top: -90px;
   position: relative;
   font-size: 24px;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1463,11 +1430,16 @@ footer .credits a {
   .copyright {
     position: relative;
     margin-top: 70px;
+
   }
   .copyright p {
-    font-size: 18px;
     position: relative;
+    font-size: 12px;
   }
+  .col-md-6{
+    text-align: center;
+  }
+  
   /*--------------------------------------------------------------
 レスポンシブ対応(Programming skill)
 --------------------------------------------------------------*/
@@ -1480,6 +1452,7 @@ footer .credits a {
   .about-img {
     border-radius: 50%;
   }
+
   .about-info {
     position: relative;
     text-align: center;
@@ -1523,6 +1496,11 @@ footer .credits a {
     margin: auto;
     top: 120px;
     position: relative;
+  }
+
+  .socials img {
+    width: 100px;
+    height: 100px;
   }
   .socials ul .intro route bg-image {
     background-size: contain;
